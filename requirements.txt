@@ -1,0 +1,3 @@
+# Active scripts use only the Python standard library plus PyTorch.
+# On rented GPUs, prefer the provider's CUDA-enabled PyTorch image if available.
+torch>=2.1
