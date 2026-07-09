@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Large downloaded datasets and tokenizer caches.
+data/
+
+# Training outputs, checkpoints, exports, packaged downloads, and plots.
+runs/
+artifacts/
+*.pt
+*.pth
+*.ckpt
+*.tar.gz
+*.png
+*.csv
+
+# Old learning-session files moved out of the active workspace.
+backups/
+
+# Local/editor/runtime noise.
+.env
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
