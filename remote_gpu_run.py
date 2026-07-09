@@ -84,7 +84,7 @@ PRESETS = {
         "WEIGHT_DECAY": "0.1",
         "GRAD_CLIP": "1.0",
         "COMPILE": "1",
-        "COMPILE_MODE": "reduce-overhead",
+        "COMPILE_MODE": "default",
         "MIXED_PRECISION": "1",
     },
 }
